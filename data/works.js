@@ -157,5 +157,45 @@ window.WORKS = [
 طرح غرفه شیرینی و شکلات شونیز، با الهام از هندسه اوریگامی، سازمان‌دهی آزاد پلان، رنگ‌های زنده و مبلمان هماهنگ با فرم معماری، تلاش دارد فضایی عملکردگرا، سرزنده و یکپارچه پدید آورد.
 
 روایت تصویری اثر از شکل‌گیری تدریجی عناصر معماری آغاز می‌شود و با حرکت دوربین در میان فضاهای طراحی‌شده ادامه می‌یابد؛ حرکتی از اجزای سازنده به کلیت فضا و از مشاهده فرم به تجربه معماری.`
+  },
+  {
+    id: "10",
+    name: "زهرا رییس کرمی",
+    cover: "media/w10-thumb.jpg",
+    ar: "9/16",
+    videos: [
+      { src: "media/w10.mp4", poster: "media/w10-poster.jpg" }
+    ],
+    text: ``
+  },
+  {
+    id: "11",
+    name: "زهرا رییس کرمی و آیسان حاجی بیگی",
+    cover: "media/w11-thumb.jpg",
+    ar: "9/16",
+    videos: [
+      { src: "media/w11.mp4", poster: "media/w11-poster.jpg" }
+    ],
+    text: ``
+  },
+  {
+    id: "12",
+    name: "زهرا رییس کرمی",
+    cover: "media/w12-thumb.jpg",
+    ar: "9/16",
+    videos: [
+      { src: "media/w12.mp4", poster: "media/w12-poster.jpg" }
+    ],
+    text: ``
+  },
+  {
+    id: "13",
+    name: "زهرا رییس کرمی",
+    cover: "media/w13-thumb.jpg",
+    ar: "1/1",
+    videos: [
+      { src: "media/w13.mp4", poster: "media/w13-poster.jpg" }
+    ],
+    text: ``
   }
 ];

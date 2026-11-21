@@ -96,8 +96,8 @@ function renderWork(w) {
         ${n > 1 ? `<div class="dots">${Array.from({ length: n }, (_, j) => `<button aria-label="${fa(j + 1)} از ${fa(n)}" aria-current="${!j}"></button>`).join('')}</div>` : ''}
       </div>
       <div class="info">
-        <div class="text">${paras(w.text)}</div>
-        ${w.name ? `<p class="name">${esc(w.name)}</p>` : ''}
+        ${String(w.text || '').trim() ? `<div class="text">${paras(w.text)}</div>` : ''}
+        ${w.name ? `<p class="name${String(w.text || '').trim() ? '' : ' solo'}">${esc(w.name)}</p>` : ''}
       </div>
     </article>
     ${W.length > 1 ? `<nav class="pn" aria-label="آثار دیگر">
